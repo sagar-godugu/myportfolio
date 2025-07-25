@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
-import profilePic from '@/assets/profile.jpeg';  
+import profilePic from 'assests/profile.jpeg';  
 import { motion } from "framer-motion";
 
 const techStack = [
