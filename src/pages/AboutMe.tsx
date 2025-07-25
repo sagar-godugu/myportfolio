@@ -34,7 +34,7 @@ const AboutSection = () => {
         >
           <Card className="shadow-2xl border-muted bg-background/80 backdrop-blur-lg p-6 md:p-10 flex flex-col md:flex-row items-center gap-8">
             <img
-              src="/assests/profile.jpeg"
+              src="/public/assets/profile.jpeg"
               alt="Sagar Godugu"
               className="w-32 h-32 rounded-full object-cover border border-gray-300 dark:border-gray-700 shadow-md"
             />
