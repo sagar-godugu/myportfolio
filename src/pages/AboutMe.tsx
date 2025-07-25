@@ -1,7 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
-import profilePic from 'assests/profile.jpeg';  
 import { motion } from "framer-motion";
 
 const techStack = [
@@ -35,7 +34,7 @@ const AboutSection = () => {
         >
           <Card className="shadow-2xl border-muted bg-background/80 backdrop-blur-lg p-6 md:p-10 flex flex-col md:flex-row items-center gap-8">
             <img
-              src={profilePic}
+              src="/assests/profile.jpeg"
               alt="Sagar Godugu"
               className="w-32 h-32 rounded-full object-cover border border-gray-300 dark:border-gray-700 shadow-md"
             />
