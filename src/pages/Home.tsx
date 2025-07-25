@@ -40,7 +40,7 @@ const Home = () => {
           transition={{ delay: 0.4 }}
         >
           <Button asChild size="lg" className="bg-yellow-400 text-black hover:bg-yellow-300 transition">
-            <a href="/public/assets/resume.pdf" download>
+            <a href="/assets/resume.pdf" download>
               Download Resume
             </a>
           </Button>
